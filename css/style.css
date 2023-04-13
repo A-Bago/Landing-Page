@@ -1,3 +1,32 @@
+:root{
+    --primary-background-color : #1f2937;
+    --secondary-color: #E5e7eb; 
+    --primary-text-color: #f9faf8;
+    --secondary-text-color: #E5e7eb; 
+    --btn-color: #3882f6;
+    
+   
+}
 body{
-    background-color: aqua;
+    height: 100vh;
+}
+header{
+    background: var(--primary-background-color);
+    height: 30%;
+}
+
+main{
+    height: 50%;
+}
+footer{
+    height: 20%;
+    background: var(--primary-text-color);
+}
+.information-container{
+    height: 50%;
+
+}
+.message-container{
+    background: var(--secondary-text-color);
+    height: 50%;
 }
