@@ -1,5 +1,5 @@
 :root {
-  /* color */
+  /* color header*/
   --btn-color: #3882f6;
   --primary-background-color: #1f2937;
   --primary-text-color: #f9faf8;
@@ -21,11 +21,15 @@ li {
 }
 ul {
   display: flex;
-  background-color: #d9dee5;
+  justify-content: space-between;
 }
 
 main {
   height: 60%;
+}
+h1{
+  color: var(--primary-text-color);
+  font-size: 48px;
 }
 h2 {
   text-align: center;
@@ -43,15 +47,7 @@ figcaption {
   text-align: center;
   width: 140px;
 }
-p {
-  font-weight: 300;
-  width: 40%;
-  line-height: 1.5;
-  font-size: 26px;
-  font-style: italic;
-  color: var(--secondary-text-color);
-}
-span{
+span {
   font-style: normal;
   font-weight: 600;
   display: block;
@@ -63,31 +59,38 @@ footer {
 }
 .Main__header {
   background: var(--primary-background-color);
-  height: 25%;
+  height: 30%;
   display: flex;
   flex-direction: column;
 }
-.link-logo-container{
+.link-logo-container {
   display: flex;
-  width:70%;
+  width: 70%;
   align-items: center;
   margin: 0 auto;
-  
 }
-.image-wrap {
-  border-radius: 10px;
-  border: 2px solid #3882f6;
-  height: 190px;
-  width: 140px;
+.hero-container{
+  display: flex;
+  width: 70%;
+  margin: 0px auto;
+}
+.heading-article{
+  flex: 1;
+}
+.hero-img{
+ flex: 1;
+ border: 1px solid #e5e7eb;
 }
 
-.logo-header{
+
+.logo-header {
   flex: 1;
   color: #f9faf8;
   font-size: 24px;
 }
-.links{
-  background-color: aqua;
+.links {
+  font-size: 18px;
+  color: #e5e7eb;
   flex: 1;
 }
 
@@ -95,7 +98,18 @@ footer {
   height: 50%;
 }
 .image-wrap {
+  border-radius: 10px;
+  border: 2px solid #3882f6;
+  height: 190px;
+  width: 140px;
+}
+.image-wrap {
   margin-right: 80px;
+}
+
+.hero_paragraph{
+  color: #e5e7eb;
+  font-size: 18px;
 }
 .message-container {
   display: flex;
@@ -103,4 +117,12 @@ footer {
   align-items: center; /* center vertically */
   height: 50%; /* set the height of the parent element to 100% */
   background: var(--secondary-color);
+}
+.quote_message {
+  font-weight: 300;
+  width: 40%;
+  line-height: 1.5;
+  font-size: 26px;
+  font-style: italic;
+  color: var(--secondary-text-color);
 }
