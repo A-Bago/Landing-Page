@@ -5,73 +5,85 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>Landing page</title>
+    <link rel="stylesheet" href="/mobile/MobileStyle.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@1,300;1,900&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <header class="Main__header">
+    <header class="main-header">
+        <img class="main-header__logo" src="logo.png" alt="Header Logo">
 
-        <div class="link-logo-container">
-            <header class="logo-header">
-                <img src="" alt="Header Logo">
-            </header>
-            <nav class="links">
-                <ul>
-                    <li>header link one</li>
-                    <li>header link two</li>
-                    <li>header link three</li>
-                </ul>
-            </nav>
-        </div>
-        <div class="hero-container">
-            <article class="heading-article">
-                <h1>This website is awesome</h1>
-                <p class="hero_paragraph">
-                    This website has some subtext that goes here under the main title. It’s a smaller font and the color
-                    is lower contrast.</p>
-                    <button>Sing up</button>
-            </article>
-            <img class="hero-img" src="" alt="">
-        </div>
+        <nav class="main-header__navigation">
+            <ul class="main-header___list">
+                <li><a class="main-header____link" href="#">header link one</a></li>
+                <li><a class="main-header____link" href="#">header link two</a></li>
+                <li><a class="main-header____link" href="#">header link three</a></li>
+            </ul>
+        </nav>
+        <hgroup class="main-header__hgroup">
+            <h1 class="main_header___h1">This website is awsome</h1>
+            <p class="main_header___para">This website has some subtext that goes here under the main title. It’s a
+                smaller font and the color
+                is lower contrast.</p>
+            <button class="main-header___btn">Sing up</button>
+        </hgroup>
+        <figure class="main-header__image">
+            <img class="main-header___img" src="/img/pots.jpg" alt="">
+        </figure>
     </header>
-    <main>
-        <div class="information-container">
-            <h2>Some random information</h2>
-            <figure>
-                <div>
-                    <img class="image-wrap" src="" alt="">
-                    <figcaption>this is some subtext under an illustration or image</figcaption>
-                </div>
-                <div>
-                    <img class="image-wrap" src="" alt="">
-                    <figcaption>this is some subtext under an illustration or image</figcaption>
-                </div>
-                <div>
-                    <img class="image-wrap" src="" alt="">
-                    <figcaption>this is some subtext under an illustration or image</figcaption>
-                </div>
-                <div>
-                    <img class="image-wrap" src="" alt="">
-                    <figcaption>this is some subtext under an illustration or image</figcaption>
-                </div>
-            </figure>
 
-        </div>
-        <div class="message-container">
-            <p class="quote_message">This is an inspiring quote, or a testimonial from a customer. Maybe it's just
-                filling up space, or maybe
-                people will actually read it. Who knows? All I know is that it looks just nice.
-                <span>-Thor,God of Thunder</span>
+    <main class="container container--grid ">
+
+        <h2 class="container__heading">Some random information </h2>
+
+        <figure class="container__image1 ">
+            <img class="image1__img" src="/img/pots.jpg" alt="image1">
+            <figcaption class="image1__caption">
+                this is some subtext under an illustration or image
+            </figcaption>
+        </figure>
+
+        <figure class="container__image2">
+            <img class="image2__img" src="/img/pots.jpg" alt="image2">
+            <figcaption class="image2__caption">
+                this is some subtext under an illustration or image
+            </figcaption>
+        </figure>
+
+        <figure class="container__image3">
+            <img class="image3__img" src="/img/pots.jpg" alt="image3">
+            <figcaption class="image3__caption">
+                this is some subtext under an illustration or image
+            </figcaption>
+        </figure>
+
+        <figure class="container__image4">
+            <img class="image4__img" src="/img/pots.jpg" alt="image4">
+            <figcaption class="image4__caption">
+                this is some subtext under an illustration or image
+            </figcaption>
+        </figure>
+
+        <blockquote class="container__quote">
+            <p class="quote__parahraph">This is an inspiring quote, or a testimonial from a customer. Maybe it's just
+                filling up space, or
+                maybe people will actually read it. Who knows? All I know is that it looks just fine.
+                <span class="quote__author"> - Thor, God of Thunder</span>
             </p>
-        </div>
 
+            </>
     </main>
-    <footer>
+    <footer class="footer">
+        <section class="footer__section">
 
+            <p class="footer___paragraph"><span class="footer____span">Call to action It's time!</span> Sing up for our
+                product by clicking that buton right over there!</p>
+            <button class="footer___btn">Sing up</button>
+
+        </section>
     </footer>
 </body>
 
